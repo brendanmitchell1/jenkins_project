@@ -6,8 +6,8 @@ pipeline {
 		{
             steps
 			{
-               bat Javac Student.java
-			bat Java Student
+               Javac Student.java
+				Java Student
             }
         }
     }
