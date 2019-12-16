@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "Javac Student"
+                bat "javac Student"
             }
         }
         stage('Test') {
