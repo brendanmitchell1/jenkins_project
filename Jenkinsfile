@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+                Javac Student.java
+				Java Student
             }
         }
     }
