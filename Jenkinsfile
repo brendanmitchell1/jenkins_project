@@ -7,7 +7,7 @@ pipeline {
             steps
 			{
                bat '''Javac Student.java
-				Java Student'''
+				'''
             }
         }
     }
