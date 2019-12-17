@@ -9,6 +9,7 @@ pipeline
             steps
 			{
                bat  "javac Student.java"
+			   echo "success"
             }
        
 		}
