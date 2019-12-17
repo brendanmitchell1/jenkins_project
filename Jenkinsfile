@@ -9,7 +9,7 @@ pipeline
             steps
 			{
                bat  "javac Student.java"
-			   bat "java Student"
+			   
             }
        
 		}
