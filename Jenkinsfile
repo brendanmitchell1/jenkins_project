@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "javac Student.java"
+                 "javac Student.java"
             }
-        }
+        }bat
         stage('Test') {
             steps {
                 echo 'Testing..'
