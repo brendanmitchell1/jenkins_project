@@ -1,7 +1,12 @@
 pipeline
  {
-    agent any
-
+agent any 
+    stages {
+        stage('Fetch') { 
+            steps {
+                git url:'https://github.com/brendanmitchell1/jenkins_project'
+            }
+        }
     stages
 	{
         stage('Build')
